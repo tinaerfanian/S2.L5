@@ -1,0 +1,231 @@
+/* Your styles here */
+body{
+    background-color: #e9edee;
+}
+
+.logo{
+    background-color: #222f3f;
+}
+.logoimagine{
+    width: 8.7%;
+    padding-left: 2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+}
+
+
+.bar{
+    background-color: #364759;
+    
+}
+
+.bar ul{
+    margin-left: 10px;
+}
+.bar ul li{
+display: inline-block;
+color: white;
+padding-top: 0.5em;
+padding-bottom: 0.6em;
+margin-left: 1em;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+   width: 97%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2em;
+}
+.bar ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+h3{
+    background-color: #f56600;
+
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.headTitle{
+    margin-top: 2em;
+    background-image:url("./../images/bg-image.png");
+    text-align: center;
+    color: white;
+}
+
+h1{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 35px;
+
+}
+.titolino{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2em;
+    font-size: 19px;
+
+
+}
+
+
+.shopNow{
+    margin-top: 1.5em;
+    background-color: white ;
+    border: #364759;
+    padding-bottom: 1.9em;
+}
+.DivPhoto{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.6em;
+    padding-left: 1em;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 15px;
+}
+.DivPhoto h2 {
+    margin: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 545;
+    font-size: 22px;
+}
+
+.DivPhoto a {
+    text-decoration: none; /* Rimuove la sottolineatura dal link */
+    color: #03677c; /* Imposta il colore del link in blu */
+    font-weight: bold;
+}
+/*INIZIO ZONA GRIGLIA prodotti*/
+.prodottigrid{
+    display: flex;
+    padding-top:1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+
+.prodotto{
+width: 23%;
+height: 400px;
+border-radius: 9px;
+box-shadow: 0 6px 18px rgb(0,0,0,0.4);
+}
+
+
+.prodotto img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 9px;
+
+}
+
+.imagemain1{
+    padding-top: 1.6em;
+    width: 100%;
+    height: 500px;
+}
+
+.imagemain1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.divimagemain1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2em;
+}
+
+.divimagemain1 a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1em;
+    color: #03677c;
+    font-size: 14px;
+
+}
+
+
+
+.imagemain2{
+    padding-top: 1.6em;
+    width: 100%;
+    height: 500px;
+}
+
+.imagemain2 img{
+    margin-top: 1em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.divimagemain2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.divimagemain2 a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1em;
+    color: #03677c;
+    font-size: 14px;
+
+}
+
+
+
+.backtotop{
+    margin-top: 3em;
+    background-color: #364759;
+    text-align: center;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+}
+
+.backtotop a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-weight: 450;
+    font-size: 16px;
+}
+
+.logoFooter{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-color: #222f3f;
+}
+
+
+.logoFooter img{
+    width: 8%;
+}
